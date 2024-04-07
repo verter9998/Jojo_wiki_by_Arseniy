@@ -1,0 +1,93 @@
+.description{
+    font-size: 40px;
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: chocolate;
+    display: inline-block;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to bottom,  rgb(181, 80, 138), crimson);
+}
+img{
+    margin-top: 5%;
+    margin-left: 33%;
+    margin-right: 33%;
+    height: 66%;
+    width: 33%;
+}
+.first{
+display: block;
+}
+.second{
+display: none;
+}
+.third{
+    display: none;
+}
+.fourth{
+    display: none;
+}
+.fifth{
+    display: none;
+}
+.sixth{
+    display: none;
+}
+article {
+    display: flex;
+    justify-content: space-evenly;
+}
+.first_mem{
+    font-size: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.amount{
+    font-size: 200%;
+    display: flex;
+    width: 1600px;
+    margin-left: 15%;
+}
+.img_spl{
+    height: 35%;
+    width: 50%;
+    margin: 1%;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    display: block;
+    font-size: 30px;
+    background-color: gold;
+    width: 150px;
+    height: 125px;
+    border-radius: 33px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: violet;
+}
+.stands_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img_spls{
+    margin: 5%;
+    width: 80%;
+    height: 80%;
+}
+.card{
+    margin: 2%;
+}
